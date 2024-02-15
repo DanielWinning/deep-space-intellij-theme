@@ -1,11 +1,50 @@
-<scheme name="Deep Space">
+<scheme name="Deep Space" parent_scheme="Darcula">
     <colors>
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+        <option name="ADDED_LINES_COLOR" value="9ccc65" />
+        <option name="DELETED_LINES_COLOR" value="ef5350" />
+        <option name="FILESTATUS_ADDED" value="addb67" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="d39d00" />
+        <option name="FILESTATUS_MODIFIED" value="75a9a9" />
+        <option name="FILESTATUS_UNKNOWN" value="b54563" />
+        <option name="GUTTER_BACKGROUND" value="0f111a" />
+        <option name="INDENT_GUIDE" value="2a2e3e" />
+        <option name="LINE_NUMBERS_COLOR" value="4b6479" />
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c5e4fd" />
+        <option name="MODIFIED_LINES_COLOR" value="e2b93d" />
+        <option name="SELECTION_BACKGROUND" value="612f69" />
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="7e97ac" />
     </colors>
     <attributes>
+        <option name="DIFF_CONFLICT">
+            <value>
+                <option name="BACKGROUND" value="b44848" />
+                <option name="ERROR_STRIPE_COLOR" value="b03435" />
+            </value>
+        </option>
+        <option name="DIFF_DELETED">
+            <value>
+                <option name="BACKGROUND" value="cf3e75" />
+                <option name="ERROR_STRIPE_COLOR" value="656e76" />
+            </value>
+        </option>
+        <option name="DIFF_INSERTED">
+            <value>
+                <option name="BACKGROUND" value="286c03" />
+                <option name="ERROR_STRIPE_COLOR" value="447152" />
+            </value>
+        </option>
+        <option name="DIFF_MODIFIED">
+            <value>
+                <option name="BACKGROUND" value="675433" />
+                <option name="ERROR_STRIPE_COLOR" value="43698d" />
+            </value>
+        </option>
+
         <option name="TEXT">
             <value>
                 <option name="BACKGROUND" value="0f111a" />
+                <option name="FOREGROUND" value="ffffff" />
+                <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
     </attributes>
