@@ -1,0 +1,61 @@
+{
+  "author": "Daniel Winning",
+  "dark": true,
+  "name": "Deep Space",
+  "colors": {
+    "DeepSpace": "#0f111a",
+    "Highlight": "#612f69",
+    "Slate": "#2a2e3e",
+    "DarkSlate": "#1f2230"
+  },
+  "ui": {
+    "*": {
+      "background": "DeepSpace",
+      "borderColor": "DeepSpace",
+      "Borders": {
+        "color": "DeepSpace"
+      },
+      "Header": {
+        "background": "DeepSpace"
+      }
+    },
+
+    "Borders": {
+      "color": "DeepSpace"
+    },
+
+    "DefaultTabs": {
+      "background": "DeepSpace",
+      "underlineColor": "Highlight"
+    },
+
+    "Editor": {
+      "Toolbar": {
+        "borderColor": "DeepSpace"
+      }
+    },
+
+    "EditorTabs": {
+      "borderColor": "Slate",
+      "underlinedTabBackground": "Slate",
+      "inactiveColoredFileBackground": "DeepSpace"
+    },
+
+    "FileColor": {
+      "Yellow": "#56859f25"
+    },
+
+    "ToolWindow": {
+      "Header": {
+        "background": "DeepSpace",
+        "inactiveBackground": "Slate"
+      }
+    },
+
+    "Tree": {
+      "selectionBackground": "Highlight",
+      "selectionInactiveBackground": "DarkSlate"
+    }
+  },
+  "editorScheme": "/theme/DeepSpace.xml"
+}
