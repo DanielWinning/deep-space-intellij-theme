@@ -2,6 +2,8 @@
 
 # Deep Space Changelog
 
+## [Unreleased]
+
 ## [1.0.0]
 ### Added
 - Syntax highlighting based on Darcula
