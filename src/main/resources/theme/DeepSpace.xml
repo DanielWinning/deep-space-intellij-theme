@@ -16,7 +16,7 @@
         <option name="DOC_COMMENT_GUIDE" value="4b6479" />
         <option name="DOC_COMMENT_LINK" value="4f86cd" />
         <option name="FILESTATUS_ADDED" value="addb67" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="d39d00" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="b48a59" />
         <option name="FILESTATUS_MODIFIED" value="75a9a9" />
         <option name="FILESTATUS_UNKNOWN" value="b54563" />
         <option name="GUTTER_BACKGROUND" value="0f111a" />
@@ -35,7 +35,21 @@
             </value>
         </option>
 
+        <option name="CTRL_CLICKABLE">
+            <value>
+                <option name="FOREGROUND" value="7fdbca" />
+                <option name="EFFECT_COLOR" value="7fdbca" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+
         <!-- Default Syntax Highlighting -->
+        <option name="DEFAULT_ATTRIBUTE">
+            <value>
+                <option name="FOREGROUND" value="a9b7c6" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
                 <option name="FOREGROUND" value="808080" />
@@ -87,6 +101,16 @@
                 <option name="FOREGROUND" value="77b767" />
             </value>
         </option>
+        <option name="DEFAULT_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="ffc66d" />
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="ffc66d" />
+            </value>
+        </option>
         <option name="DEFAULT_IDENTIFIER">
             <value>
                 <option name="FOREGROUND" value="a9b7c6" />
@@ -113,9 +137,30 @@
                 <option name="FOREGROUND" value="cc844f" />
             </value>
         </option>
+        <option name="DEFAULT_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="808080" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="DEFAULT_LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="a9b7c6" />
+            </value>
+        </option>
+        <option name="DEFAULT_METADATA">
+            <value>
+                <option name="FOREGROUND" value="bbb529" />
+            </value>
+        </option>
         <option name="DEFAULT_NUMBER">
             <value>
                 <option name="FOREGROUND" value="6897bb" />
+            </value>
+        </option>
+        <option name="DEFAULT_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="9876aa" />
             </value>
         </option>
         <option name="DEFAULT_SEMICOLON">
@@ -172,14 +217,15 @@
             </value>
         </option>
 
-        <option name="PHP_FUNCTION_CALL">
+        <!-- PHP Syntax Highlighting -->
+        <option name="PHP_FUNCTION">
             <value>
-                <option name="FOREGROUND" value="82aaff" />
+                <option name="FOREGROUND" value="ffc66d" />
             </value>
         </option>
-        <option name="PHP_PARAMETER">
+        <option name="PHP_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="9876aa" />
+                <option name="FOREGROUND" value="ffc66d" />
             </value>
         </option>
         <option name="PHP_THIS_VAR">
@@ -193,6 +239,13 @@
                 <option name="BACKGROUND" value="0f111a" />
                 <option name="FOREGROUND" value="ffffff" />
                 <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+
+        <option name="TODO_DEFAULT_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="a8c023" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
     </attributes>
