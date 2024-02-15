@@ -1,0 +1,12 @@
+<scheme name="Deep Space">
+    <colors>
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="637777" />
+    </colors>
+    <attributes>
+        <option name="TEXT">
+            <value>
+                <option name="BACKGROUND" value="0f111a" />
+            </value>
+        </option>
+    </attributes>
+</scheme>
